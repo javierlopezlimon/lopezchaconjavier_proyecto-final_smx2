@@ -20,23 +20,88 @@ body {
     background-color: #FBD542;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    gap: 70px;
 }
 
-.lado-arriba_izquierdo div:nth-child(1), .lado-arriba_izquierdo div:nth-child(3)  {
+.lado-arriba_izquierdo {
+    position: relative;
+}
+
+.lado-arriba_izquierdo > div:nth-child(1), .lado-arriba_izquierdo > div:nth-child(3)  {
     font-size: 80px;
     padding-left: 30px;
+    z-index: 100;
 }
 
-.lado-arriba_izquierdo div:nth-child(2) {
+span {
+    font-weight: 700;
+}
+
+.lado-arriba_izquierdo > div:nth-child(3) {
+    font-weight: 700;
+}
+
+.lado-arriba_izquierdo > div:nth-child(2) {
     font-size: 120px;
     font-style: italic;
     font-weight: 700;
-    padding: 10px 30px;
+    padding: 10px 50px;
+    border: 2px solid #000;
+    background-color: #FBD542;
+    border-radius: 200px;
+    margin: 20px 0;
+    position: relative;
+    z-index: 1200;
+}
+
+.digital-raya {
+    position: absolute;
+    width: 415px;
+    height: 170px;
+    background-color: #FBD542;
     border: 2px solid #000;
     border-radius: 200px;
+    top: 125px;
+    right: -10px;
+
 }
 
 .lado-arriba_derecho {
     width: 500px;
+}
+
+img[src="img_carta-48/iman.png"] {
+    width: 150px;
+    height: 200px;
+}
+
+.secion-trozo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.secion-trozo h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.secion-trozo .numero {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.secion-trozo p {
+    width: 350px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.lado-abajo {
+    background-image: url(img_carta-48/imagen-fondo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
