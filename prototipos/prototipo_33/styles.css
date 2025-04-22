@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-33 {
+    width: 1030px;
+    height: 720px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    padding: 70px;
+    color: #333;
+    display: flex;
+}
+
+.contenido-arriba {
+    width: 400px;
+}
+
+.contenido-arriba h2 {
+    font-size: 55px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contenido-arriba p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.contenido-arriba button {
+    border: none;
+    color: #fff;
+    background-color: #333;
+    padding: 14px 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.circulos {
+    display: flex;
+    position: relative;
+    right: 45px;
+    width: 450px;
+    scale: .8;
+    gap: 25px;
+}
+
+.circulos img {
+    position: relative;
+}
+
+.contenido-abajo {
+    display: flex;
+    padding: 10px 20px;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 0;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 370px;
+    margin-top: 30px;
+}
+
+.contenido-abajo .contenido-abajo-trozo {
+    width: 220px;
+}
+
+.contenido-abajo .contenido-abajo-trozo h3 {
+    margin: 5px 0;
+    margin-top: 10px;
+    color: #333;
+}
+
+.contenido-abajo .contenido-abajo-trozo p {
+    color: #333;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.lado-derecho {
+    display: flex;
+    position: relative;
+    right: -35px;
+}
+
+.lado-derecho img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 1px solid #333;
+    scale: .8;
+    margin-bottom: -35px;
+}
+
+.primera-parte-derecho {
+    position: relative;
+    top: -10px;
+}
+
+.segunda-parte-derecho {
+    margin-top: 60px;
+    right: 25px;
+    position: relative;
+}

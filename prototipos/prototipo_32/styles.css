@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-32 {
+    width: 1080px;
+    height: 800px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #FBF4DF;
+    padding: 30px 50px;
+}
+
+.lado-arriba {
+    display: flex;
+    gap: 30px;
+}
+.titulo-marco {
+    padding: 30px;
+    border: 2px solid #000;
+    width: 450px;
+    position: relative;
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+.cuadrado-amarillo {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    background-color: #EFC356;
+    position: absolute;
+}
+
+.cuadrado-amarillo:nth-child(2){
+    top: -10px;
+    left: -10px;
+}
+
+.cuadrado-amarillo:nth-child(3){
+    top: -10px;
+    right: -10px;
+}
+
+.cuadrado-amarillo:nth-child(4){
+    bottom: -10px;
+    right: -10px;
+}
+
+.cuadrado-amarillo:nth-child(5){
+    bottom: -10px;
+    left: -10px;
+}
+
+
+.titulo-marco h2 {
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contenido p {
+    width: 430px;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+.contenido button {
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 60px;
+    padding: 17px 45px;
+    font-size: 17px;
+    margin-left: 45px;
+}
+
+.cuadro-lila {
+    background-color: #5B57EB;
+    position: relative;
+    top: -40px;
+    right: -100px;
+    height: 490px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    z-index: 220;
+    filter: drop-shadow(13px 14px 0px #413EAC);
+}
+
+img[src="img_carta-32/imagen1.png"] {
+    position: relative;
+    top: -117px;
+    border-radius: 20px;
+    z-index: 30;
+}
+
+img[src="img_carta-32/estreya1.png"] {
+    scale: .8;
+    position: relative;
+    top: 70px;
+}
+
+img[src="img_carta-32/estreya2.png"] {
+    position: relative;
+    top: 20px;
+    right: -40px;
+    z-index: 300;
+    scale: .8;
+}
+
+img[src="img_carta-32/estreya3.png"] {
+    position: relative;
+    right: -460px;
+    top: -80px;
+    z-index: 300;
+    scale: .8;
+}
+
+.circulo-blanco {
+    width: 350px;
+    position: absolute;
+    height: 170px;
+    border-radius: 50%;
+    z-index: 20;
+    background-color: #E7E7E7;
+    right: 30px;
+}
+
+.circulo-blanco:nth-child(1) {
+    top: 30px;
+}
+
+.circulo-blanco:nth-child(2) {
+    top: 200px;
+}
+
+.lado-abajo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #F8D046;
+    position: relative;
+    top: -70px;
+    border-radius: 30px;
+    border: 2px solid #333;
+    filter: drop-shadow(12px 12px 0 #D7AA3B);
+}
+
+.trozo-lado-abajo {
+    width: 120px;
+}
+
+.trozo-lado-abajo .numero {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.trozo-lado-abajo p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    color: #000;
+}
