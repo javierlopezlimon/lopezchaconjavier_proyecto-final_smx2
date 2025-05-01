@@ -18,6 +18,79 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    padding: 100px 40px 0 40px;
+    padding: 100px 50px 0 50px;
     box-sizing: border-box;
+    gap: 100px;
+}
+
+.lado-izquierdo {
+    position: relative;
+    margin-top: 130px;
+}
+
+img[src="img_carta-54/circulo-imagen.png"] {
+    position: absolute;
+    right: 155px;
+    top: -70px;
+}
+
+.secion-izquierdo {
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 380px;
+    padding: 90px 30px 10px 40px;
+}
+
+.secion-izquierdo > p {
+    font-size: 25px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.secion-izquierdo-seciones {
+    display: flex;
+    gap: 40px;
+}
+
+.secion-trozo {
+    width: 170px;
+    margin-bottom: 40px;
+}
+
+.secion-trozo .numero {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.secion-trozo p {
+    font-size: 25px;
+    color: #333;
+    margin: 0;
+}
+
+.lado-derecho {
+    padding-top: 50px;
+}
+
+.lado-derecho h2 {
+    font-size: 57px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+}
+
+.lado-derecho p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.lado-derecho button {
+    border: none;
+    border-radius: 50px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px 55px;
+    font-size: 24px;
+    font-family: lato;
 }
