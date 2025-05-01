@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-50 {
+    width: 1280px;
+    height: 900px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: linear-gradient(to top,#F7C067, #BFDAE6);
+}
+
+.lado-arriba {
+    width: 880px;
+    text-align: center;
+}
+
+.lado-arriba h2 {
+    font-size: 60px;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.lado-arriba p {
+    font-size: 24px;
+    color: #333;
+}
+
+.lado-arriba button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    padding: 18px 50px;
+    font-family: Lato;
+    color: #dacebf;
+    font-size: 22px;
+}
+
+.lado-abajo {
+    display: flex;
+    margin-top: 60px;
+    gap: 15px;
+}
+
+.lado-abajo h3 {
+    font-size: 32px;
+    padding: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.lado-abajo_izquierdo-arriba {
+    display: flex;
+    gap: 20px;
+}
+
+.lado-abajo p {
+    background-image: linear-gradient(to top, #fffd, transparent);
+    margin: 0;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.lado-abajo_izquierdo-arriba__imagen01 {
+    background-image: url(img_carta-50/imagen01.jpg);
+    height: 250px;
+    width: 220px;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.lado-abajo_izquierdo-arriba__imagen02 {
+    background-image: url(img_carta-50/imagen02.jpg);
+    height: 250px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+}
+
+.lado-abajo_izquierdo-abajo__imagen03 {
+    background-image: url(img_carta-50/imagen03.jpg);
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    background-size: cover;
+}
+
+.lado-abajo_izquierdo-abajo__imagen04 {
+    background-image: url(img_carta-50/imagen04.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 470px;
+    border-radius: 20px;
+    text-align: end;
+}
+
+.lado-abajo_derecho p {
+ padding: 20px 50px;
+}
+
+.lado-abajo_izquierdo-abajo__imagen05 {
+    background-image: url(img_carta-50/imagen05.jpg);
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.lado-abajo_izquierdo-abajo__imagen06 {
+    background-image: url(img_carta-50/imagen06.jpg);
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.lado-abajo_izquierdo-abajo__imagen06 p {
+    background-image: none;
+}
