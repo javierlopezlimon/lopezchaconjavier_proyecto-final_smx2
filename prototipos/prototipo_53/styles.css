@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-53 {
+    width: 1440px;
+    height: 1024px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    gap: 60px;
+    padding: 130px 0 30px 70px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.carta-53 p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 24px;
+}
+
+.lado-izquierdo {
+    margin-right: 40px;
+    position: relative;
+    padding-top: 10px;
+}
+
+img[src="img_carta-53/imagen-circular.png"] {
+    width: 100px;
+    position: absolute;
+    right: 40px;
+    top: 4px;
+}
+
+.lado-izquierdo h2 {
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+img[src="img_carta-53/imagen01.jpg"] {
+    width: 380px;
+    height: 272px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.lado-medio img, .lado-derecho img {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.lado-medio > p, .lado-derecho > p {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lado-medio-contenido {
+    display: flex;
+    gap: 30px;
+}
+
+.lado-medio-contenido div {
+    font-size: 65px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #aaa;
+    font-weight: 700;
+}
+
+.lado-medio-contenido p {
+    font-size: 25px;
+}
