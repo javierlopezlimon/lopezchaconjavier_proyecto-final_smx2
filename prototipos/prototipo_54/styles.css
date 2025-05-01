@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-54 {
+    width: 1440px;
+    height: 1024px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-image: url(img_carta-54/imagen-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 100px 40px 0 40px;
+    box-sizing: border-box;
+}
