@@ -22,6 +22,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 70px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 10px;
 }
 
 .lado-arriba_izquierdo {
@@ -40,6 +43,8 @@ span {
 
 .lado-arriba_izquierdo > div:nth-child(3) {
     font-weight: 700;
+    position: relative;
+    top: 25px;
 }
 
 .lado-arriba_izquierdo > div:nth-child(2) {
@@ -50,7 +55,8 @@ span {
     border: 2px solid #000;
     background-color: #FBD542;
     border-radius: 200px;
-    margin: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
     position: relative;
     z-index: 1200;
 }
@@ -62,7 +68,7 @@ span {
     background-color: #FBD542;
     border: 2px solid #000;
     border-radius: 200px;
-    top: 125px;
+    top: 150px;
     right: -10px;
 
 }
@@ -94,6 +100,10 @@ img[src="img_carta-48/iman.png"] {
     font-weight: 700;
 }
 
+.secion-trozo:last-child p {
+    margin-bottom: 0;
+}
+
 .secion-trozo p {
     width: 350px;
     font-size: 18px;
@@ -101,7 +111,98 @@ img[src="img_carta-48/iman.png"] {
 }
 
 .lado-abajo {
-    background-image: url(img_carta-48/imagen-fondo.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 50%;
+}
+
+img[src="img_carta-48/imagen-fondo.jpeg"] {
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 1100px;
+    z-index: 10;
+    top: -390px;
+    right: 70px;
+}
+
+.contenido-entero-abajo {
+    position: relative;
+    z-index: 30;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    height: 350px;
+}
+
+.lado-abajo_botones {
+    display: flex;
+    justify-content: end;
+    gap: 120px;
+}
+
+.lado-abajo_botones button {
+    background-color: #111;
+    color: #fff;
+    border-radius: 24px;
+    border: none;
+    padding: 12px 50px;
+    font-size: 22px;
+}
+
+.contendor-numeros-botones {
+    position: relative;
+}
+
+.numeros-boton {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    background-image: linear-gradient(to right, #FBD542, transparent, 80%, #FBD542);
+}
+
+.raya-numeros {
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #000;
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+}
+
+.primera-raya-nuemro {
+    top: -5px;
+    right: 5px;
+    border-bottom: transparent;
+    border-right: transparent;
+}
+
+.segunda-raya-numero {
+    top: 12px;
+    right: -8px;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+.lado-abajo_abajo {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 20px;
+}
+
+.lado-abajo_abajo > img {
+    width: 100px;
 }
