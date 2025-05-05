@@ -111,26 +111,29 @@ body {
 }
 
 .lado-derecha img[alt="imagen1"] {
-    width: 350px;
+    width: 330px;
     height: 450px;
     object-fit: cover;
     border-radius: 300px;
     outline: 1px solid #000;
     outline-offset: 40px;
+    position: relative;
+    top: 60px;
+    right: 0px;
 }
 
 .lado-derecha img[alt="estreya1"] {
     width: 70px;
-    position: relative;
+    position: absolute;
     top: 70px;
-    right: 20px;
+    right: 390px;
     z-index: 100;
 }
 
 .lado-derecha img[alt="estreya2"] {
     width: 100px;
     position: relative;
-    top: -90px;
+    top: -40px;
     right: -290px;
 }
 
